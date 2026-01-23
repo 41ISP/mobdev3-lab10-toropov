@@ -4,11 +4,11 @@ import { createBrowserRouter } from "react-router-dom"
 export const router = createBrowserRouter([
 
     {
-        path: "/",
+        path: "/mobdev3-lab10-toropov/",
         element: <SearchPage />
     },
     {
-        path: "movie/:id",
+        path: "/mobdev3-lab10-toropov/movie/:id",
         element: <MovieDetailsPage />
     }
 ]
